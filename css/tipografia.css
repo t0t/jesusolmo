@@ -1,0 +1,22 @@
+body { font: 0.63em/15px Arial, sans-serif !important; text-align: justify; }
+.descripcion-sitio { font-size: 1.4em; }
+blockquote { font-style: italic; }
+
+h2 {}
+#sidebar h2 { font-size: 1em !important; }
+
+h1, h2, h3, h4, h5, h6, .menu_principal, .descripcion-sitio, .entry li { font-weight: lighter; font-family: "myriad-pro-1","myriad-pro-2",sans-serif; letter-spacing: 1px; }
+h1, h2, h3, h4, h5, h6, .entry li {}
+
+.menu_principal ul li a {}
+.menu-footer li a {}
+
+/* CONTENT */
+.content h2 { line-height: 28px; }
+
+/* CUSTOM FIELDS */
+#custom-fields small {}
+#custom-fields small strong {}
+
+/* FORM CONTACTO */
+.wpcf7 textarea, .wpcf7 input { font-family: inherit; font-size: 1em; }
