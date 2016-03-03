@@ -15,7 +15,8 @@ embed, img {
 
 // Site
 .site {
-	font: 0.63em/15px Arial, sans-serif;
+	font-family: Arial, sans-serif;
+	font-size: 100%;
 	background-color: black;
 	color: #999;
 	display: flex;
@@ -33,28 +34,28 @@ embed, img {
 }
 
 .site-description {
-	font-size: 1.4em;
+	font-size: 110%;
 }
 
 .site-footer {
 	width: 100%;
 	// padding-top: 67px;
 	text-align: center;
-	font-size: 90%;
+	font-size: 60%;
 }
 
 .statement {
 	text-align: center;
 	padding-top: $spacing / 2;
 	color: $color-white;
-	line-height: 17px;
+	line-height: 1.5;
 	margin-bottom: $spacing;
 }
 
 // Brand
 .logo {
 	display: inline-block;
-	background-image: url(./images/logo.gif);
+	background-image: url(../images/logo.gif);
 	background-repeat: no-repeat;
 	background-position: center;
 	padding: 10px;
